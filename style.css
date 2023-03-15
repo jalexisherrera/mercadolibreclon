@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Verdana', sans-serif;
+    max-width: 1512px;
+    
+}
+.gap50{
+    gap: 50px;
 }
 .gap20{
     gap: 20px;
@@ -13,11 +18,20 @@
 .gap5{
     gap: 5px;
 }
+
 .bgwhite{
     background-color: #fff;
 }
 .bggrey{
     background-color: #ebebeb;
+}
+.bgbanner{
+    background-image: url(media/img-promo-destacadas.svg);
+    width: 1512px;
+    height: 340px;
+}
+.cblack{
+    color: #000;
 }
 .cgrey60{
     color: rgba(51, 51, 51, 0.6);
@@ -100,40 +114,71 @@ input{
     font-size: 16px;
     background-color: #fff;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
-    padding: 10px 60px 10px 15px;
+    padding: 10px 60px 10pxtransfer 15px;
     display: flex;
     align-items: center;
 }
-.menu-head{
+.mbottom10{
     margin-bottom: 10px;
 }
-.area{
-    display: flex;
+.center{
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    
 }
-.menu-text{
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    align-items: center;
-}
-.fbcrow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fbrow{
     flex-direction: row;
 
 }
-.fbccol{   
+.fbox{
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.fdcol{   
     flex-direction: column;
 }
-.btwcenter{
-    display: flex;
+
+.btwflexstart{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.btwflexend{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.btwflexcenter{
     justify-content: space-between;
     align-items: center;
+}
+
+.w600{
+    width: 600px;
+}r
+.wid100{
+    width: 100%;
+}
+.w1200{
+    width: 1200px;
+}
+.padding10{
+    padding: 10px;
+}
+.padding20{
+    padding: 20px;
+}
+.padding30{
+    padding: 30px;
+}
+.centrado{
+    margin:0 auto;
+}
+.mtop10{
+    margin-top: 10px;
+}
+.mtop20{
+    margin-top: 20px;
+}
+.mtop30{
+    margin-top: 30px;
+}
+.mtop40{
+    margin-top: 40px;
 }
