@@ -7,108 +7,97 @@
     <title>Mercado Libre Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <nav class="btwcenter container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="media/logo.svg" alt="Mercado Libre">
-                </a>
-            </div>
-            <div class="search">
-                <form action="">
-                    <label for="search-product">
-                        <input type="text" name="search-product" placeholder="Buscar productos, marcas y más...">
-                    </label>
-                <button type="submit">Buscar</button>
-                </form>
-            </div>
-            
-        </nav>
-        <div class="btwcenter menu-head fbcrow container">
-            <div class="area colorblackmenu">
-                <span>
-                    <img src="media/Pin-location-point.svg" alt="Carrito de compras" height="22px">
-                </span>
-                <span>
-                    Ingresa tu domicilio
-                </span>
-            </div>
-            <div class="menu-text colorgrey60">
-                <span class="gap5">Categorías</span>
-                <span class="gap5">icon</span>
-                <span class="gap5">Ofertas</span>
-                <span class="gap5">Historial</span>
-                <span class="gap5">Supermercado</span>
-                <span class="gap5">Moda</span>
-                <span class="gap5">Vender</span>
-                <span class="gap5">Ayuda/PQR</span>
-            </div>
-
-            <div class="user area colorblackmenu">
-                <span>Ingresar</span>
-                <span>Crear cuenta</span>
-                <span>Mis Compras</span>
-                <span><img src="media/shoppingcart.svg" alt="icon shoppingcart" height="22px"></span>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="promo">
-            <div>
-                <img src="media/img-promo-destacadas.svg" alt="banner">
-            </div>
-        </section>
-        <section class="payments">
-            <div>
+<body class="bggrey">
+    <header class="fbox">
+    
+        <nav class="fbox w1200 fdcol centrado"> 
+            <div class="fbox btwflexcenter"><!-- contiene el logo y el search-->
                 <div>
-                    <img src="media/visa.svg" alt="visa">
-                    <div>
-                        <span>Hasta 48 cuotas</span>
-                        <span>Ver más</span>
-                    </div>
+                    <a href="index.html">
+                        <img src="media/logo.svg" alt="Mercado Libre">
+                    </a>
                 </div>
-                <div></div>
-                <div></div>
-            </div>
-            
-            <div></div>
-        </section>
-        <section>
-            <div class="categories">
-                <div class="category">
-                    <img src="media/phone.svg" alt="phone">
-                    <span>Telefonía</span>
-                </div>
-                <div class="category">
-                    <img src="media/computer.svg" alt="computer">
-                    <span>Computadores</span>
-                </div>
-                <div class="category">
-                    <img src="media/television.svg" alt="television">
-                    <span>TV, Audio y Video</span>
-                </div>
-                <div class="category">
-                    <img src="media/camera.svg" alt="camera">
-                    <span>Cámaras y Accesorios</span>
-                </div>
-                <div class="category">
-                    <img src="media/video-game.svg" alt="video-game">
-                    <span>Videojuegos</span>
-                </div>
-                <div class="category">
-                    <img src="media/television.svg" alt="television">
-                    <span>TV, Audio y Video</span>
-                </div>
-                <div class="category">
-                    <img src="media/camera.svg" alt="camera">
-                    <span>Cámaras y Accesorios</span>
-                </div>
-                <div class="category">
-                    <img src="media/video-game.svg" alt="video-game">
-                    <span>Videojuegos</span>
+                <div class="w600">
+                    <form action="">
+                        <label for="search">
+                            <input type="text" name="search" placeholder="Buscar productos, marcas y más...">
+                        </label>
+                        <button type="submit">Buscar</button>
+                    </form>
                 </div>
             </div>
+            <div class="centrado fbox btwflexcenter"><!-- contiene location - menu - login -->
+                <div class="">
+                    <img src="media/Pin-location-point.svg" alt="Carrito de compras" height="22px">
+                    <span>
+                        Ingresa tu domicilio
+                    </span>
+                </div>
+                <div class="">
+                    <span class="">Categorías</span>
+                    <span class="">icon</span>
+                    <span class="">Ofertas</span>
+                    <span class="">Historial</span>
+                    <span class="">Supermercado</span>
+                    <span class="">Moda</span>
+                    <span class="">Vender</span>
+                    <span class="">Ayuda/PQR</span>
+                </div>
+
+                <div class="">
+                    <span>Ingresar</span>
+                    <span>Crear cuenta</span>
+                    <span>Mis Compras</span>
+                    <span><img src="media/shoppingcart.svg" alt="icon shoppingcart" height="22px"></span>
+                </div>
+            </div>
+        </nav>
+    
+    </header>
+    <main class="centrado">
+        <section class="bgbanner"><!-- contiene el banner -->
+            <div>
+            <span>o</span>
+            <span>o</span>
+            <span>o</span>
+            <span>o</span>
+            <span>o</span>
+            </div>
         </section>
+        <section class="btwflexcenter centrado fbox fdrow bgwhite padding20 w1200 mtop40"><!-- contiene los payments-->
+            <div class="fbox gap20 center">
+                <img src="media/credit-card.svg" alt="Tarjeta de crédito">
+                <div class="fbox fdcol">
+                    <span class="fs17 cblack">Hasta 48 cuotas</span>
+                    <span class="fs13 clink">Ver más</span>
+                </div>
+            </div>
+            <div class="fbox gap20 center">
+                <img src="media/transfer.svg" alt="Transferencia bancaria">
+                <div class="fbox fdcol">
+                    <span class="fs17 cblack">Transferencia desde tu banco</span>
+                    <span class="fs13 clink">Ver más</span>
+                </div>
+            </div>
+            <div class="fbox gap20 center">
+                <img src="media/payment-agreement.svg" alt="Paga en efectivo">
+                <div class="fbox fdcol">
+                    <span class="fs17 cblack">Paga en efectivo</span>
+                    <span class="fs13 clink">Ver más</span>
+                </div>
+            </div>
+            <div class="fbox gap20 center">
+                <img src="media/view-more.svg" alt="">
+                <div class="fbox fdcol">
+                    <span class="fs17 cblack">Más medios de pago</span>
+                    <span class="fs13 clink">Ver todos</span>
+                </div>
+            </div>
+        </section>
+        <section class="w1200"><!-- ofertas-->
+
+        </section>
+        
+    </main>
 </body>
 </html>
