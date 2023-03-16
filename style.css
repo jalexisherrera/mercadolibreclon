@@ -168,6 +168,9 @@ input{
 .fs28{
     font-size: 28px;
 }
+.wf600{
+    font-weight: 600;
+}
 
 /*margen y padding */
 .mtop10{
@@ -206,7 +209,21 @@ input{
 .ml16{
     margin-left: 16px;
 }
-
+.ml20{
+    margin-left: 20px;
+}
+.mr20{
+    margin-right: 20px;
+}
+.pt10{
+    padding-top: 10px;
+}
+.pt20{
+    padding-top: 20px;
+}
+.pt30{
+    padding-top: 30px;
+}
 .padding10{
     padding: 10px;
 }
@@ -218,6 +235,9 @@ input{
 }
 .padding30{
     padding: 30px;
+}
+.padding6{  
+    padding: 6px;
 }
 /*flex direction */
 .fdrow{
@@ -240,6 +260,9 @@ input{
     justify-content: space-between;
     
 }
+.saflex{
+    justify-content: space-around;
+}
 .flexstart{
     align-items: flex-start;
 }
@@ -257,6 +280,15 @@ input{
 }
 .jcstart{
     justify-content: flex-start;
+}
+.w33{
+    width: 33.3%;
+}
+.w70{
+    width: 70%;
+}
+.w80{
+    width: 80%;
 }
 .w600{
     width: 600px;
@@ -311,10 +343,26 @@ input{
 .bsleft{
     border-left: solid 1px #E6E6E6;
 }
+.bsleftwhite{
+    border-left: solid 1px #fff;
+}
 .bseright{
     border-right: solid 1px #E6E6E6;
 }
 
 .pointer{
     cursor: pointer;
+}
+.flexw{
+    flex-wrap: wrap;
+}
+.flexnw{
+    flex-wrap: nowrap;
+}
+.buttonsub{
+    background: #3483FA;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border:none;
 }
