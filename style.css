@@ -136,6 +136,9 @@ input{
 .clink{
     color: #3483FA;
 }
+.fcgreen{
+    color: #00A650;
+}
 .cwhite{
     color: #fff;
 }
@@ -184,7 +187,7 @@ input{
 .fs28{
     font-size: 28px;
 }
-.wf600{
+.fw600{
     font-weight: 600;
 }
 
