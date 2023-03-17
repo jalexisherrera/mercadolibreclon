@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
    
 }
 header{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background: #fff159;
 
@@ -70,6 +71,12 @@ input{
     border: none;
 }
 /* estilos de gap */
+.txtcenter{
+    text-align: center;
+}
+.txtleft{
+    text-align: left !important;
+}
 .gap50{
     gap: 50px;
 }
@@ -117,6 +124,9 @@ input{
 .cgrey60{
     color: rgba(51, 51, 51, 0.6);
 }
+.fc4b4b{
+    color: #4B4B4B;
+}
 .fc999{
     color: #999999;
 }
@@ -135,6 +145,9 @@ input{
 }
 
 /*tamaños de fuente */
+.fs11{
+    font-size: 11px;
+}
 .fs12{
     font-size: 12px;
 }
@@ -152,6 +165,9 @@ input{
 }
 .fs18{
     font-size: 18px;
+}
+.fs19{
+    font-size: 19px;
 }
 .fs20{
     font-size: 20px;
@@ -179,6 +195,9 @@ input{
 .mtop20{
     margin-top: 20px;
 }
+.mtop21{
+    margin-top: 21px;
+}
 .mtop30{
     margin-top: 30px;
 }
@@ -203,6 +222,12 @@ input{
 .mbottom40{
     margin-bottom: 40px;
 }
+.mlauto{
+    margin-left: auto;
+}
+.mrauto{
+    margin-right: auto;
+}
 .mr16{
     margin-right: 16px;
 }
@@ -224,6 +249,15 @@ input{
 .pt30{
     padding-top: 30px;
 }
+.pt50{
+    padding-top: 50px;
+}
+.pt75{
+    padding-top: 75px;
+}
+.pb20{
+    padding-bottom: 20px;
+}
 .padding10{
     padding: 10px;
 }
@@ -235,6 +269,9 @@ input{
 }
 .padding30{
     padding: 30px;
+}
+.pb50{
+    padding-bottom: 50px;
 }
 .padding6{  
     padding: 6px;
@@ -260,11 +297,14 @@ input{
     justify-content: space-between;
     
 }
+.grid{
+    float: left;
+}
 .saflex{
     justify-content: space-around;
 }
 .flexstart{
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 .flexend{
     align-items: flex-end;
@@ -279,7 +319,10 @@ input{
     justify-content: flex-end;
 }
 .jcstart{
-    justify-content: flex-start;
+    justify-content: flex-start !important;
+}
+.w30{
+    width: 30%;
 }
 .w33{
     width: 33.3%;
@@ -289,6 +332,12 @@ input{
 }
 .w80{
     width: 80%;
+}
+.w90{
+    width: 90%;
+}
+.w170{
+    width: 170px;
 }
 .w600{
     width: 600px;
@@ -304,6 +353,9 @@ input{
 }
 .w1200{
     width: 1200px;
+}
+.h170{
+    height: 170px;
 }
 .height39{
     height: 39px;
