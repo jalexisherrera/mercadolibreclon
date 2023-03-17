@@ -307,10 +307,10 @@ input{
     justify-content: space-around;
 }
 .flexstart{
-    align-items: flex-start !important;
+    align-items: start;
 }
 .flexend{
-    align-items: flex-end;
+    align-items: end;
 }
 .flexcenter{
     align-items: center;
@@ -319,10 +319,10 @@ input{
     justify-content: center;
 }
 .jcend{
-    justify-content: flex-end;
+    justify-content: end;
 }
 .jcstart{
-    justify-content: flex-start !important;
+    justify-content: start;
 }
 .w30{
     width: 30%;
@@ -420,4 +420,25 @@ input{
     padding: 12px 24px;
     border-radius: 4px;
     border:none;
+}
+.flexg1{
+    flex-grow: 1;
+    width: 33.3%;
+}
+.bgdisney{
+    background-image: url('media/Widget_Multicontent_Latam_768-x-566px.jpg.jpg');
+    height: 250px;
+    
+}
+.bghbo{
+    background-image: url('media/HBOMax_widgetmulti_mobdsk_mco_@2x.webp.jpg');
+    height: 250px;
+}
+.bgparamount{
+    background-image: url('media/paramount_widgetmulti_mobdsk_mco_@2x.jpg.jpg');
+    height: 250px;
+}
+.overlay{
+   
+    background: linear-gradient(0deg, #081330 0%, rgba(8, 19, 48, 0) 100%);
 }
